@@ -1,0 +1,48 @@
+.logo{
+    width: 60px ;
+    height: 60px;
+}
+.title{
+    font-size: 2rem;
+}
+
+.bg-body-tertiary{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.login{
+    display: block;
+    background-color: #474849;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 50px;
+    height: 40px;
+    
+}
+.panel{
+    display: block;
+    width: 50px;
+    height: 40px;
+    background-color: #474849;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.link{
+    color: #474849;
+    text-decoration: none;
+}
+.active{
+    color: #FF7400;
+}

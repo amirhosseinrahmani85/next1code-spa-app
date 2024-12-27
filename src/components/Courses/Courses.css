@@ -1,0 +1,62 @@
+.courseBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.title{
+    font-size: 1.4rem;
+}
+.box{
+    width: 340px;
+    height: 330px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.desc{
+    width: 100%;
+    padding: 10px;
+}
+.desc p{
+    transition: all 0.2s ease-in;
+}
+.desc p:hover{
+    cursor: pointer;
+    color: #ff724f;
+
+}
+
+.desc span{
+     display: flex;
+    flex-direction: row-reverse; 
+    text-align: left;
+    font-size: 12px;
+    margin-top: 30px;
+    transition: all 0.2s ease-in;
+
+    
+}
+.desc span:hover{
+    color: #ff724f;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 180px;
+}
+.box_price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    font-size: 14px;
+}
+.dd{
+    margin: 50px 0;
+}
+

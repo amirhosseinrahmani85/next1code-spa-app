@@ -1,0 +1,36 @@
+.about-title {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  color: rgb(71, 71, 71);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10rem;
+}
+.fa-brands {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+.fa-instagram {
+  background-color: #e31784;
+}
+.fa-telegram {
+  background-color: #2ca5e0;
+}
+.fa-youtube {
+  background-color: #cd201f;
+}

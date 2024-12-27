@@ -1,0 +1,9 @@
+.card_info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box-info{
+    margin: 30px 0;
+}

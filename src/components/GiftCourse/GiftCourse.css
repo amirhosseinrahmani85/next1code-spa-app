@@ -1,0 +1,31 @@
+.gift_corse{
+    /* margin: 30px 0 0px 0; */
+}
+
+li{
+    font-size: 14.5px;
+    line-height: 34px;
+    
+}
+i{
+    font-size: 12px;
+ 
+}
+.span{
+    font-weight: bold;
+}
+.card_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_price{
+    color: #6C757D;
+}
+.title{
+    transition: all 0.2s ease-in;
+}
+.title:hover{
+    color: #ff724f;
+
+}
